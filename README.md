@@ -1,0 +1,1 @@
+# USDJPY-Auto-Trading
