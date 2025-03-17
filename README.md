@@ -15,6 +15,15 @@
 
 This project is still WIP. Results may evolve as improvements are made. Feedback is welcome.
 
-## 1. Introduction
+## Introduction
 
-This project, by Erik Staszewski, explores predicting the price of the USD/JPY conversion rate.
+This project seeks to predict the convertibility of the US dollar to Japanese Yen through K-means clustering.
+Once the convertibility is obtained, the model will be run through an auto-trading simulation.
+
+## Background Review
+
+## Methodology
+
+## Results
+
+## Conclusion
