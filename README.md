@@ -13,12 +13,12 @@
    <a href="mailto:erik.staszewski@gmail.com"><b>Email Me</b></a> | <a href="https://www.linkedin.com/in/estaszewski/"><b>My LinkedIn</b></a></b></a>
 </div>
 
-This project is still WIP. Results may evolve as improvements are made. Feedback is welcome.
+This project is still WIP, a lot needs to be done in terms of write up, but the rate prediction is pretty much finalized. Results may evolve as improvements are made. Feedback is welcome.
 
 ## Introduction
 
-This project seeks to predict the convertibility of the US dollar to Japanese Yen through K-means clustering.
-Once the convertibility is obtained, the model will be run through an auto-trading simulation.
+This project seeks to predict the exchange rate of the US dollar to Japanese Yen through $k$-means clustering.
+Once the convertibility is obtained, the model will be run through an algorithmic simulation.
 
 ## Background Review
 
