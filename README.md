@@ -19,11 +19,13 @@ This project is still WIP. Results will evolve as improvements are made. Feedbac
 
 This project seeks to predict the exchange rate of the US dollar to Japanese Yen and use the obtained predicted values to run an algorithmic trading simulation.
 
-## Market Context
+## Background
+
+### Market Context
 
 The US dollar to Japanese yen pair today is one of the most traded currency pairs globally.
 
-## Background Review
+### Literature & Technical Review
 
 ## Methodology
 
@@ -37,6 +39,26 @@ $k$-means clustering is used to detect the regimes.
 
 ### Modeling
 
+LSTM (Long-Short Term Memory)
+
+### Algorithmic Trading
+
 ## Results
+
+### Exchange Rate Predictions
+
+Mean Absolute Error (MAE): 3.20%
+
+Accuracy: 95.39%
+
+### Algorithmic Trading Profit & Loss
+
+## Model Robustness Testing
+
+### Sensitivity Analysis
+
+### Statistical Testing
+
+### Stress Testing
 
 ## Conclusion
