@@ -17,68 +17,47 @@ This project is still WIP. Results will evolve as improvements are made. Feedbac
 
 ## Introduction
 
-This project seeks to predict the exchange rate of the US dollar to Japanese Yen.
+This project seeks to predict the exchange rate of the US dollar to Japanese yen. The model uses historical data combined with market regime detection and a deep learning LSTM model.
 
-Later on, the obtained predicted values will be utilized in an algorithmic trading simulation.
+In later stages, the predicted values will be used in an an algorithmic trading simulation.
 
 ## Background
 
 ### Market Context
 
-The US dollar to Japanese yen pair today is one of the most traded currency pairs globally.
+The US dollar to Japanese yen pair today is one of the most traded and liquid currency pairs in the global foreign exchange market.
 
-From after the conclusion of World War 2 until 1972, the Japanese yen was pegged to the US dollar at a rate of 1 USD to 360 JPY, and later from 1972 to 1973 at 1 USD to 308 JPY. Since 1973, the Japanese yen has been a floating currency.
+From after the conclusion of World War 2 until 1972, the Japanese yen was pegged to the US dollar at 360 JPY per USD, and later from 1972 to 1973 at 308 JPY per USD. Since 1973, the Japanese yen has been a floating currency, subject to market forces. In recent years, the rate has ranged from 130 JPY to 160 JPY per USD.
 
 ### Literature & Technical Review
 
-**$k$-means clustering** is one of the many clustering methods used in data mining. It seeks to partition all the $n$ observations into $k$ clusters. 
+**$k$-means clustering** is one of the most commonly used clustering methods. It seeks to partition all observations into $k$ clusters, helping identify distinct regimes.
 
-A **Long short-term memory (LSTM)** is a type of Recurrent Neural Network.
+**Long short-term memory (LSTM)** is a type of recurrent neural network. The memory structure of LSTMs allow it to capture long-term dependencies and lag relationships, making it ideal for time-series datasets.
 
 ## Methodology
 
 ### Data Collection
 
-Using the Yahoo Finance Python function, yfinance, the exchange rate between the US dollar and Japanese yen is obtained through January 1, 2015 to December 31, 2024, a 10-year period. Only the Date and Close values are extracted for this analysis.
+Using the Yahoo Finance Python package, yfinance, the daily exchange rate between the US dollar and Japanese yen is obtained through January 1, 2015 to December 31, 2024, a 10-year period. Only the Date and Close values are extracted for this analysis.
 
 ### Regime Detection
 
-$k$-means clustering is used to detect the regimes.
+$k$-means clustering is used to detect the regimes, using data from normalized daily returns and 20-day rolling volatility. Three distinct regimes are classified: Sideways, Bull, Bear. The regimes are used as input features in the predictive model.
 
 ### Modeling
 
-LSTM (Long-Short Term Memory)
+An LSTM neural network is used to forecast the exchange rate for the following day, trained on a 60-day rolling window of past Close values and the corresponding regime labels.
 
-### Algorithmic Trading
-
-To Be Determined!
+The training and testing periods are equal, with the training period lasting from January 1, 2015 to December 31, 2019, and testing period lasting from January 1, 2020 to December 31, 2024.
 
 ## Results
 
 ### Exchange Rate Predictions
 
-Mean Absolute Error (MAE): 3.20%
+The model achieved the following results on the test set:
 
-Accuracy: 95.39%
+* **Mean Absolute Error (MAE)**: 3.20%
+* **Accuracy**: 95.39%
 
-### Algorithmic Trading Profit & Loss
-
-To Be Determined!
-
-## Model Robustness Testing
-
-To Be Determined!
-
-### Sensitivity Analysis
-
-To Be Determined!
-
-### Statistical Testing
-
-To Be Determined!
-
-### Stress Testing
-
-To Be Determined!
-
-## Conclusion
+These are excellent results!
