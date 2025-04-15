@@ -4,13 +4,7 @@
 
 <a name="top"></a>
 <div align="center">
-  <img src="./figures/USDJPY.png" style="width: 300px;"/>
-</div>
-
-<div style="display: flex; justify-content: center;">
-  <h1 style="max-width: 900px; text-align: center;">
-    USD/JPY Rate Prediction Model
-  </h1>
+  <img src="./figures/logo.png" style="width: 400px;"/>
 </div>
 
 ---
