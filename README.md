@@ -7,6 +7,12 @@
   <img src="./figures/USDJPY.png" style="width: 300px;"/>
 </div>
 
+<div style="display: flex; justify-content: center;">
+  <h1 style="max-width: 900px; text-align: center;">
+    USD/JPY Rate Prediction Model
+  </h1>
+</div>
+
 ---
 
 <div align="center">
