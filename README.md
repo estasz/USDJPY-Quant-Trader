@@ -4,7 +4,7 @@
 
 <a name="top"></a>
 <div align="center">
-  <img src="./figures/logo.png" style="width: 400px;"/>
+  <img src="./figures/logo.png" style="height: 250px;"/>
 </div>
 
 ---
