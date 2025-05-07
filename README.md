@@ -13,7 +13,7 @@
    <a href="mailto:erik.staszewski@gmail.com"><b>Email Me</b></a> | <a href="https://www.linkedin.com/in/estaszewski/"><b>My LinkedIn</b></a></b></a>
 </div>
 
-This project is still WIP. Results will evolve as improvements are made. Feedback is welcome.
+This project is still WIP. The algorithmic trading component is not yet posted, please be patient! Results will evolve as improvements are made. Feedback is welcome.
 
 ## Introduction
 
