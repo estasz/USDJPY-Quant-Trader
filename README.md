@@ -67,4 +67,43 @@ These are excellent results!
 
 ### Algorithmic Trading Returns
 
-WIP
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Strategy</th>
+      <th>Total Return</th>
+      <th>Annualized Return</th>
+      <th>Sharpe Ratio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Buy &amp; Hold</strong></td>
+      <td>45.01%</td>
+      <td>7.44%</td>
+      <td>0.71</td>
+    </tr>
+    <tr>
+      <td>Long</td>
+      <td>62.99%</td>
+      <td>9.89%</td>
+      <td>1.31</td>
+    </tr>
+    <tr>
+      <td>Long-Short</td>
+      <td>73.05%</td>
+      <td>11.17%</td>
+      <td>1.10</td>
+    </tr>
+    <tr>
+      <td>Proportional</td>
+      <td>8.33%</td>
+      <td>1.56%</td>
+      <td>0.21</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
