@@ -59,8 +59,9 @@ WIP
 
 The model achieved the following results on the test set:
 
-* **Mean Absolute Error (MAE)**: 3.20%
-* **Accuracy**: 95.39%
+* **Mean Absolute Error (MAE)**: 2.43%
+* **Accuracy**: 92.17%
+* **Directional Accuracy**: 53.30%
 
 These are excellent results!
 
