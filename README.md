@@ -67,6 +67,8 @@ These are excellent results!
 
 ### Algorithmic Trading Returns
 
+The table below compares the long, and long-short investing methods to a passive buy-and-hold benchmark over the test period:
+
 <div align="center">
 
 <table>
@@ -80,7 +82,7 @@ These are excellent results!
   </thead>
   <tbody>
     <tr>
-      <td><strong>Buy &amp; Hold</strong></td>
+      <td>Buy &amp; Hold</td>
       <td>45.01%</td>
       <td>7.44%</td>
       <td>0.71</td>
@@ -89,21 +91,22 @@ These are excellent results!
       <td>Long</td>
       <td>62.99%</td>
       <td>9.89%</td>
-      <td>1.31</td>
+      <td><strong>1.31</strong></td>
     </tr>
     <tr>
       <td>Long-Short</td>
-      <td>73.05%</td>
-      <td>11.17%</td>
+      <td><strong>73.05%</strong></td>
+      <td><strong>11.17%</strong></td>
       <td>1.10</td>
-    </tr>
-    <tr>
-      <td>Proportional</td>
-      <td>8.33%</td>
-      <td>1.56%</td>
-      <td>0.21</td>
     </tr>
   </tbody>
 </table>
 
+</div>
+
+The below graph illustrates the equity curve of the investment.
+
+<a name="top"></a>
+<div align="center">
+  <img src="./figures/equity.png" style="width: 100%;"/>
 </div>
